@@ -3,20 +3,26 @@
 name: duvan salazar pulido
 
 # Controls when the workflow will run
-on:mas ordenes 
+# mas ordenes
+on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
+  # clientes 1,2,3,4
   push:
-    branches: [ "main" ] clientes 1,2,3,4
+    branches: [ "main" ]
+  # zona ampliada
   pull_request:
-    branches: [ "main" ] zona ampliada 
+    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch: radar batchs 
+  # radar batchs
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:ordenes 
+# ordenes
+jobs:
   # This workflow contains a single job called "build"
-  build: mejor pagadas 
+  # mejor pagadas
+  build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
