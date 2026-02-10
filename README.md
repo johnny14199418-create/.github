@@ -1,0 +1,1 @@
+shopper órdenes mejor pagadas
